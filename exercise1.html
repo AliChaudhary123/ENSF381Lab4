@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 4 - Exercise 1</title>
+    </head>
+    <body>
+        <h1>JavaScript Lab</h1>
+        <script>
+            let x = 5;
+            const y = 2;
+            let z = 25;
+            let sum = x + y + z;
+
+            x = 1;
+            console.log("Value of x: ", x);
+
+            //y = 5;
+            //console.log("Value of y: ", y);
+            
+            console.log(sum);
+
+
+            let string1 = "Hello, World!"
+            let string2 = "JavaScript is fun!" 
+            
+            let len = string1.length;
+            console.log("The length of string1 is: ", len);
+            let result = string1 + ' ' + string2;
+            console.log(result);
+
+            let newstr = string2.replace("fun", "awesome");
+            console.log(newstr);
+
+            let name = "Alice";
+            let age = 25;
+            let sentence = `My name is ${name} and I am ${age} years old.`;
+            console.log(sentence);
+
+
+            let currentDate = new Date();
+            console.log("Full: ", currentDate);
+            let year = currentDate.getFullYear();
+            console.log(year);
+            let month = currentDate.getMonth() + 1;
+            console.log(month);
+            let day = currentDate.getDay();
+            console.log(day);
+
+            let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            
+            console.log(week[day]);
+
+        
+        </script>
+    </body>
+   
+</html>
